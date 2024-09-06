@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="./images/preview.png">
+    <link rel="icon" href="./images/bitcoin.png" type="image/png">
+    <meta name="description" content="Join now for a chance to win big with our exclusive, fun, and surprising crypto giveaways. Don't miss out on the excitement!">
+    <title>CryptoElite Airdrop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
+  </head>
+  <body class="min-h-screen py-20 flex justify-center items-center px-5">
+    <div class="flex flex-col justify-center items-center space-mono page1">
+        <img src="./images/bitcoin.png" alt="" class="logo min-[400px]:w-[300px] w-full object-cover motion-safe:animate-bounce duration-2000">
+      <h1 class="text-white lg:text-7xl sm:text-5xl text-3xl space-mono font-bold flex flex-col items-center mt-4">
+        <span class="text-yellow-500 galac sm:text-8xl min-[500px]:text-6xl text-5xl text-center">$100 000</span> AIRDROP
+      </h1>
+      <button class="min-[400px]:px-10 px-5 py-3 bg-yellow-600 mt-4 text-center rounded-md border-2 border-white min-[400px]:text-xl text-sm font-bold page2Trigger">Check Eligibility</button>
+    </div>
+    <div class="flex flex-col items-center justify-center h-full hidden page2">
+        <h1 class="text-white text-xl font-mono tracking-tight text-wrap text-center" >Checking Eligibility...</h1>
+        <div class="min-[400px]:w-[300px] w-full h-4 rounded-full border-2 border-white mt-5">
+            <div class="bg-yellow-600 progress h-full w-full"></div>
+        </div>
+    </div>
+    <div class="flex items-center justify-center flex-col page3 hidden">
+        <i class="fa-solid fa-circle-check text-yellow-600 text-[100px]  min-[400px]:text-[200px] logo"></i>
+        <h1 class="text-white min-[400px]:text-5xl text-2xl space-mono logo mt-4 w-full">Congratulations</h1>
+        <button class="min-[400px]:px-10 px-5 py-3 bg-yellow-600 mt-4 text-center rounded-md border-2 border-white min-[400px]:text-xl text-sm font-bold page4Trigger beat">Claim Airdrop</button>
+    </div>
+    <div class="flex flex-col items-center justify-center h-full hidden page4">
+        <h1 class="text-white text-xl font-mono tracking-tight " >Processing...</h1>
+        <div class="min-[400px]:w-[300px] w-full h-4 rounded-full border-2 border-white mt-5">
+            <div class="bg-yellow-600 progress h-full w-full"></div>
+        </div>
+    </div>
+    <div class="page5 hidden flex flex-col items-center">
+        <h1 class="text-white text-8xl space-mono">😂</h1>
+        <h1 class="text-white text-8xl space-mono text-center">Dey Play ooo</h1>
+        <audio id="audio" src="./audio/laughing.mp3" loop></audio>
+    </div>
+    <script src="scripts.js"></script>
+</html>
